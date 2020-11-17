@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from './Components/Head';
 import Navigation from './Components/Navigation';
 import Home from './Components/Home';
 import Page1 from './Components/Page-1';
+import BottomCards from './Components/BottomCards';
 import Footer from './Components/Footer';
 import {
   BrowserRouter as Router,
@@ -34,6 +34,7 @@ function App() {
           </Route>
         </Switch>
 
+        <BottomCards />
         <Footer />
       </div>
     </Router>

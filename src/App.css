@@ -3,10 +3,19 @@
   background-color: rgb(165, 205, 235);
 }
 
+nav {
+  display: flex;
+}
+
+.navbar {
+  width: 100%;
+}
+
 .myContent {
   margin: 20px;
   padding: 20px;
-  
+  color: white;
+  background: url('./img/Tower_2.jpg');
 }
 
 .myContent>iframe {

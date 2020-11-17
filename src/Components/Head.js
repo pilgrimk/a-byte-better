@@ -6,7 +6,7 @@ function Head(){
         <div>
         <Helmet>
           <title>A-Byte-Better</title>
-          <meta name="description" content="Computer Repair. Youtube Channel."></meta>
+          <meta name="description" content="Computer Repair Service. Computer Store. Electronics. Youtube Channel."></meta>
           <link rel="icon"  href="/favicon.ico"/>
         </Helmet>
       </div>
