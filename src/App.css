@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: rgb(165, 205, 235);
+  background-color: whitesmoke;
 }
 
 nav {
@@ -14,8 +14,11 @@ nav {
 .myContent {
   margin: 20px;
   padding: 20px;
+  min-height: 35em;
   color: white;
-  background: url('./img/Tower_2.jpg');
+  background: url('./img/pexels-toni-cuenca-585752.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .myContent>iframe {
@@ -27,6 +30,8 @@ nav {
 }
 
 .footer {
+  margin: 10px 0px 0px 0px;
+  padding: 10px;
   background: black;
   color: white;
 }
