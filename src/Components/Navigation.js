@@ -12,6 +12,7 @@ function Navigation() {
                     <Nav className="mr-auto">
                         <Nav.Link href="home">Home</Nav.Link>
                         <Nav.Link href="page-1">Page-1</Nav.Link>
+                        <Nav.Link href="page-2">Page-2</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

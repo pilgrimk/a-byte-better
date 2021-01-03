@@ -4,6 +4,7 @@ import Head from './Components/Head';
 import Navigation from './Components/Navigation';
 import Home from './Components/Home';
 import Page1 from './Components/Page-1';
+import Page2 from './Components/Page-2';
 import BottomCards from './Components/BottomCards';
 import Footer from './Components/Footer';
 import {
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/page-1">
             <Page1 />
+          </Route>
+          <Route path="/page-2">
+            <Page2 />
           </Route>
           <Route path="*">
             <NoMatch />

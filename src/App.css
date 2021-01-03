@@ -16,7 +16,7 @@ nav {
   padding: 20px;
   min-height: 35em;
   color: white;
-  background: url('./img/pexels-toni-cuenca-585752.jpg');
+  background: url('./img/digital-face-desktop.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -27,6 +27,12 @@ nav {
   aspect-ratio: attr(width) / attr(height);
   width: 50em;
   height: 30em;
+}
+
+.sliderimg{
+  width: 700px;
+  height: 600px;
+  object-fit: contain
 }
 
 .footer {
